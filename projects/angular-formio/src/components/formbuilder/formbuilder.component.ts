@@ -154,7 +154,12 @@ export class FormBuilderComponent implements OnInit, OnChanges, OnDestroy {
   }
 
   setDisplay(display: String) {
-    return this.builder.setDisplay(display).then(instance => this.setInstance(instance));
+    if (!this.formio?.groups?.resource) {
+      return this.builder.setDisplay(display).then(instance => this.setInstance(instance));
+    }
+    else {
+      return Promise.resolve();
+    }
   }
 
   buildForm(form: any) {
