@@ -145,7 +145,7 @@ npm install --save @formio/angular@rc @formio/js
 You can now include the module in your Angular application like so.
 
 ```js
-import { FormioModule } from '@formio/angular';
+import { FormioModule } from 'aw-gps-formio';
 @NgModule({
     imports: [ BrowserModule, CommonModule, FormioModule ],
     declarations: [ AppComponent ],
@@ -165,7 +165,7 @@ npm install --save @formio/bootstrap@rc
 Then perform the following in your application.
 
 ```
-import { Formio } from '@formio/angular';
+import { Formio } from '@formio/deprecated-types';
 import bootstrap4 from '@formio/bootstrap/bootstrap4';
 (Formio as any).use(bootstrap4);
 ```

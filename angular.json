@@ -3,30 +3,30 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-formio": {
+    "aw-gps-formio": {
       "projectType": "library",
-      "root": "projects/angular-formio",
-      "sourceRoot": "projects/angular-formio/src",
+      "root": "projects/aw-gps-formio",
+      "sourceRoot": "projects/aw-gps-formio/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/angular-formio/tsconfig.lib.json",
-            "project": "projects/angular-formio/ng-package.json"
+            "tsConfig": "projects/aw-gps-formio/tsconfig.lib.json",
+            "project": "projects/aw-gps-formio/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/angular-formio/tsconfig.lib.prod.json"
+              "tsConfig": "projects/aw-gps-formio/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/angular-formio/src/test.ts",
-            "tsConfig": "projects/angular-formio/tsconfig.spec.json",
-            "karmaConfig": "projects/angular-formio/karma.conf.js"
+            "main": "projects/aw-gps-formio/src/test.ts",
+            "tsConfig": "projects/aw-gps-formio/tsconfig.spec.json",
+            "karmaConfig": "projects/aw-gps-formio/karma.conf.js"
           }
         }
       }

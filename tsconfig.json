@@ -17,23 +17,23 @@
       "dom"
     ],
     "paths": {
-      "@formio/angular": [
-        "./projects/angular-formio/src"
+      "aw-gps-formio": [
+        "./projects/aw-gps-formio/src"
       ],
-      "@formio/angular/grid": [
-        "./projects/angular-formio/grid/src"
+      "aw-gps-formio/grid": [
+        "./projects/aw-gps-formio/grid/src"
       ],
-      "@formio/angular/auth": [
-        "./projects/angular-formio/auth/src"
+      "aw-gps-formio/auth": [
+        "./projects/aw-gps-formio/auth/src"
       ],
-      "@formio/angular/manager": [
-        "./projects/angular-formio/manager/src"
+      "aw-gps-formio/manager": [
+        "./projects/aw-gps-formio/manager/src"
       ],
-      "@formio/angular/resource": [
-        "./projects/angular-formio/resource/src"
+      "aw-gps-formio/resource": [
+        "./projects/aw-gps-formio/resource/src"
       ],
-      "@formio/angular/embed": [
-        "./projects/angular-formio/embed/src"
+      "aw-gps-formio/embed": [
+        "./projects/aw-gps-formio/embed/src"
       ]
     }
   }
